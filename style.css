@@ -19,3 +19,21 @@
     bottom: 0;
     width: 100%;
   }
+
+  .home-banner{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 40em;
+    background-position: center;
+    background-image: url(img/home/background.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .home-content{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+  }

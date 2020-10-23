@@ -11,3 +11,11 @@
   .home-center-content{
     text-align: center;
   }
+
+  footer{
+    padding: 10px 0;
+    background-color: #343A40;
+    color: white;
+    bottom: 0;
+    width: 100%;
+  }

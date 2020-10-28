@@ -1,39 +1,43 @@
 .carousel-item {
-    height: 100vh;
-    min-height: 350px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
-  .home-center-content{
-    text-align: center;
-  }
+.home-center-content{
+  text-align: center;
+}
 
-  footer{
-    padding: 10px 0;
-    background-color: #343A40;
-    color: white;
-    bottom: 0;
-    width: 100%;
-  }
+footer{
+  padding: 10px 0;
+  background-color: #343A40;
+  color: white;
+  bottom: 0;
+  width: 100%;
+}
 
-  .home-banner{
-    position: relative;
-    text-align: center;
-    color: white;
-    padding-top: 40em;
-    background-position: center center;
-    background-image: url(img/home/background.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
+.home-banner{
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-top: 40em;
+  background-position: center center;
+  background-image: url(img/home/background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
-  .home-content{
-    position: absolute;
-    top: 50%;
-    left: 50%; 
-    transform: translate(-50%, -50%);
-  }
+.home-content{
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+.navbar-nav { 
+  margin-left: auto; 
+} 

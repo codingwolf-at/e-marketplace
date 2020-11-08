@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- Jquery library -->
-    <script type="text/javacsript" src="js/jquery.js"></script>
+    <script type="text/javacsript" src="bootstrap/js/jquery.js"></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     
     <!-- Bootstrap files -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.slim.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <title>E-marketplace</title>
 </head>

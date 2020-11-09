@@ -9,7 +9,6 @@
 
     <!-- Jquery library -->
     <script type="text/javacsript" src="bootstrap/js/jquery.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     
     <!-- Bootstrap files -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">

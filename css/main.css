@@ -51,5 +51,20 @@ footer{
 }
 
 .card{
-  box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 20px grey;
+}
+
+.signup-form{
+  padding-top: 60px;
+}
+
+.row-signup{
+  background-color: #26323845;
+  border-radius: 15px; 
+  box-shadow: 12px 12px 22px grey;
+}
+
+.signup-img{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }

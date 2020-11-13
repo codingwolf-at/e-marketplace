@@ -58,12 +58,7 @@ footer{
   padding-top: 60px;
 }
 
-.row-signup{
-  background-color: #26323845;
-  box-shadow: 12px 12px 22px grey;
-}
-
-.row-login{
+.row-styling{
   background-color: #26323845;
   box-shadow: 12px 12px 22px grey;
 }

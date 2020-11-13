@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <title>E-marketplace</title>
 </head>
 <body>
     
@@ -37,10 +39,13 @@
                         <a href="index.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="signup.html" class="nav-link active">Cart</a>
+                        <a href="signup.html" class="nav-link">Cart</a>
                     </li>
                     <li class="nav-item">
-                        <a href="login.html" class="nav-link">Setting</a>
+                        <a href="login.html" class="nav-link active">Setting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">Logout</a>
                     </li>
                 </ul>
             </div>
@@ -48,6 +53,45 @@
         </div>
     </nav>
     <!-- /Header-->
+
+    <!-- Main body content -->
+
+    <section class="form1 my-5 mx-5">
+        <div class="container">
+            <div class="row row-styling no-gutters">
+                <div class="col-lg-6">
+                    <img src="img/login.jpg" class="img-fluid login-img" alt="">
+                </div>
+                <div class="col-lg-6 px-5 pt-5">
+                    <h1 class="display-4 py-3">CHANGE PASSWORD</h1>
+                    <form action="">
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input type="password" class="form-control my-4 p-4" placeholder="Old Password" name="" id="">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input type="password" class="form-control my-4 p-4" placeholder="New Password" name="" id="">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input type="password" class="form-control my-4 p-4" placeholder="Re-type New Password" name="" id="">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <button type="button" class="btn btn-dark btn-block my-3">Change Password</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- /Main body contet -->
 
 
 </body>

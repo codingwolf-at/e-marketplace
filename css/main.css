@@ -46,7 +46,7 @@ footer{
   margin-left: auto; 
 } 
 
-.product-page-header{
+.page-header{
   padding-top: 100px;
 }
 
@@ -66,4 +66,8 @@ footer{
 .cart{
   height: 90vh;
   padding-top: 100px;
+}
+
+.content{
+  min-height: 550px;
 }

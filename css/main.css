@@ -60,11 +60,10 @@ footer{
 
 .row-signup{
   background-color: #26323845;
-  border-radius: 15px; 
   box-shadow: 12px 12px 22px grey;
 }
 
-.signup-img{
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+.row-login{
+  background-color: #26323845;
+  box-shadow: 12px 12px 22px grey;
 }

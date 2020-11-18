@@ -1,11 +1,3 @@
-<?php
-  require("includes/common.php");
-
-if (isset($_SESSION['email'])) {
-    header('location: products.php');
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,34 +21,9 @@ if (isset($_SESSION['email'])) {
 <body>
 
     <!-- Header starts -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-        <div class="container">
-
-            <!-- Website logo -->
-            <div class="navbar-header">
-                <a href="index.php" class="navbar-brand">E-marketplace</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-
-            <!-- Website Links -->
-            <div class="collapse navbar-collapse" id="mynavbar">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item">
-                        <a href="index.php" class="nav-link active">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="signup.php" class="nav-link">Sign Up</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="login.php" class="nav-link">Login</a>
-                    </li> 
-                </ul>
-            </div>
-
-        </div>
-    </nav>
+    <?php
+    include 'includes/header.php';
+    ?>                
     <!-- /Header-->
 
     <!-- Main body content -->

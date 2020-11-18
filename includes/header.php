@@ -30,13 +30,21 @@
                 <?php
                 } else {
                 ?>
-
+                
+                <li class="nav-item">
+                    <a href="index.php" class="nav-link ">Home</a>
+                </li>
                 <li class="nav-item">
                     <a href="signup.php" class="nav-link">Sign Up</a>
                 </li>
                 <li class="nav-item">
                     <a href="login.php" class="nav-link">Login</a>
                 </li> 
+
+                <?php
+                }
+                ?>
+
             </ul>
         </div>
 

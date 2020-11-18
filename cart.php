@@ -26,7 +26,7 @@
 
             <!-- Website logo -->
             <div class="navbar-header">
-                <a href="index.html" class="navbar-brand">E-marketplace</a>
+                <a href="index.php" class="navbar-brand">E-marketplace</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -36,13 +36,13 @@
             <div class="collapse navbar-collapse" id="mynavbar">
                 <ul class="nav navbar-nav">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="index.php" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="cart.html" class="nav-link active">Cart</a>
+                        <a href="cart.php" class="nav-link active">Cart</a>
                     </li>
                     <li class="nav-item">
-                        <a href="setting.html" class="nav-link">Setting</a>
+                        <a href="setting.php" class="nav-link">Setting</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Logout</a>
@@ -79,7 +79,7 @@
                         <td></td>
                         <td>Total</td>
                         <td>₹0/-</td>
-                        <td><a href="success.html" class="btn btn-dark">Confirm Order</a></td>
+                        <td><a href="success.php" class="btn btn-dark">Confirm Order</a></td>
                     </tfoot>
                 </table>
             </div>
@@ -88,13 +88,9 @@
     <!-- /Main body content -->
 
     <!-- Footer starts -->
-    <footer>
-        <div class="container home-center-content">
-            <p class="lead">
-                Copyright © E-marketplace | All Rights Reserved | Contact Us: +91 90000 00000
-            </p>
-        </div>
-    </footer>
+    <?php
+    include 'includes/footer.php';
+    ?>
     <!-- /Footer -->
 
 </body>

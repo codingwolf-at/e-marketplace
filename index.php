@@ -26,7 +26,7 @@
 
             <!-- Website logo -->
             <div class="navbar-header">
-                <a href="index.html" class="navbar-brand">E-marketplace</a>
+                <a href="index.php" class="navbar-brand">E-marketplace</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -36,13 +36,13 @@
             <div class="collapse navbar-collapse" id="mynavbar">
                 <ul class="nav navbar-nav">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link active">Home</a>
+                        <a href="index.php" class="nav-link active">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="signup.html" class="nav-link">Sign Up</a>
+                        <a href="signup.php" class="nav-link">Sign Up</a>
                     </li>
                     <li class="nav-item">
-                        <a href="login.html" class="nav-link">Login</a>
+                        <a href="login.php" class="nav-link">Login</a>
                     </li> 
                 </ul>
             </div>
@@ -127,7 +127,7 @@
     <section>
         <div class="container home-banner">
             <div class="home-content">
-                <a href="product.html" class="btn btn-dark">
+                <a href="product.php" class="btn btn-dark">
                     <h4 class="display-4">
                         Visit Store
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

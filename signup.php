@@ -1,4 +1,12 @@
-<!DOCTYPE html>
+<?php
+  require("includes/common.php");
+
+if (isset($_SESSION['email'])) {
+    header('location: products.php');
+}
+?><
+    
+    !DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -35,7 +43,7 @@
                 </div>
                 <div class="col-lg-6 px-5 pt-5">
                     <h1 class="display-4 py-3">USER SIGN UP</h1>
-                    <form action="">
+                    <form method="POST" action="signup_script.php">
                         <div class="form-row">
                             <div class="col-lg-7">
                                 <input type="text" class="form-control my-4 p-4" placeholder="Full Name" name="" id="">

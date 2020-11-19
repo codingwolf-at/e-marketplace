@@ -1,3 +1,11 @@
+<?php
+  require("includes/common.php");
+
+if (isset($_SESSION['email'])) {
+    header('location: products.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,7 +43,7 @@
                 </div>
                 <div class="col-lg-6 px-5 pt-5">
                     <h1 class="display-4 py-3">USER LOGIN</h1>
-                    <form action="">
+                    <form method="POST" action="login_script.php">
                         <div class="form-row">
                             <div class="col-lg-7">
                                 <input type="email" class="form-control my-4 p-4" placeholder="Email address" name="" id="">

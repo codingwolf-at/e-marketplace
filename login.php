@@ -46,17 +46,17 @@ if (isset($_SESSION['email'])) {
                     <form method="POST" action="login_script.php">
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="email" class="form-control my-4 p-4" placeholder="Email address" name="" id="">
+                                <input type="email" class="form-control my-4 p-4" placeholder="Email address" name="email" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="password" class="form-control my-4 p-4" placeholder="Password" name="" id="">
+                                <input type="password" class="form-control my-4 p-4" placeholder="Password" name="password" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <button type="button" class="btn btn-dark btn-block my-3">Login</button>
+                                <button type="button" name="submit" class="btn btn-dark btn-block my-3">Login</button>
                             </div>
                         </div>
                         <hr>

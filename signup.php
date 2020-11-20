@@ -6,7 +6,7 @@ if (isset($_SESSION['email'])) {
 }
 ?><
     
-    !DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -46,37 +46,37 @@ if (isset($_SESSION['email'])) {
                     <form method="POST" action="signup_script.php">
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="text" class="form-control my-4 p-4" placeholder="Full Name" name="" id="">
+                                <input type="text" class="form-control my-4 p-4" placeholder="Full Name" name="name" >
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="email" class="form-control my-4 p-4" placeholder="Email address" name="" id="">
+                                <input type="email" class="form-control my-4 p-4" placeholder="Email address" name="email">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="password" class="form-control my-4 p-4" placeholder="Password" name="" id="">
+                                <input type="password" class="form-control my-4 p-4" placeholder="Password" name="password">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="tel"class="form-control my-4 p-4" placeholder="Contact" name="" id="">
+                                <input type="tel"class="form-control my-4 p-4" placeholder="Contact" name="contact">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="text" class="form-control my-4 p-4" placeholder="City" name="" id="">
+                                <input type="text" class="form-control my-4 p-4" placeholder="City" name="city">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="text" class="form-control my-4 p-4" placeholder="Address" name="" id="">
+                                <input type="text" class="form-control my-4 p-4" placeholder="Address" name="address">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <button type="button" class="btn btn-dark btn-block my-3">Sign Up</button>
+                                <button type="button" name="submit" class="btn btn-dark btn-block my-3">Sign Up</button>
                             </div>
                         </div>
                         <hr>

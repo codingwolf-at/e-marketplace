@@ -1,11 +1,10 @@
 <?php
-  require("includes/common.php");
-
+require("includes/common.php");
+// Redirects the user to products page if logged in.
 if (isset($_SESSION['email'])) {
     header('location: products.php');
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,7 +55,7 @@ if (isset($_SESSION['email'])) {
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <button type="button" name="submit" class="btn btn-dark btn-block my-3">Login</button>
+                                <button type="submit " name="submit" class="btn btn-dark btn-block my-3">Login</button>
                             </div>
                         </div>
                         <hr>

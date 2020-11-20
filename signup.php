@@ -1,12 +1,10 @@
 <?php
-  require("includes/common.php");
-
+require("includes/common.php");
 if (isset($_SESSION['email'])) {
     header('location: products.php');
 }
-?><
-    
-!DOCTYPE html>
+?>   
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -46,22 +44,22 @@ if (isset($_SESSION['email'])) {
                     <form method="POST" action="signup_script.php">
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="text" class="form-control my-4 p-4" placeholder="Full Name" name="name" >
+                                <input type="text" class="form-control my-4 p-4" placeholder="Full Name" name="name" pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="email" class="form-control my-4 p-4" placeholder="Email address" name="email">
+                                <input type="email" class="form-control my-4 p-4" placeholder="Email address" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="password" class="form-control my-4 p-4" placeholder="Password" name="password">
+                                <input type="password" class="form-control my-4 p-4" placeholder="Password" name="password" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="tel"class="form-control my-4 p-4" placeholder="Contact" name="contact">
+                                <input type="tel"class="form-control my-4 p-4" placeholder="Contact" name="contact" maxlength="10" size="10" required>
                             </div>
                         </div>
                         <div class="form-row">
@@ -76,7 +74,7 @@ if (isset($_SESSION['email'])) {
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <button type="button" name="submit" class="btn btn-dark btn-block my-3">Sign Up</button>
+                                <button type="submit" name="submit" class="btn btn-dark btn-block my-3">Sign Up</button>
                             </div>
                         </div>
                         <hr>

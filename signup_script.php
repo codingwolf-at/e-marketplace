@@ -38,6 +38,9 @@ require("includes/common.php");
   } else if (!preg_match($regex_num, $contact)) {
     $m = "<span class='red'>Not a valid phone number</span>";
     header('location: signup.php?m2=' . $m);
+    echo'<scrip>alert("Registration Successfully Done");
+    window.location="login.php";
+    </script>';
   } else {
 
     $query = "INSERT INTO users(name, email, password, contact, city, address)VALUES('" . $name . "','" . $email . "','" . $password . "','" . $contact . "','" . $city . "','" . $address . "')";

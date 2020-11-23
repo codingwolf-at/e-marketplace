@@ -45,12 +45,12 @@ if (isset($_SESSION['email'])) {
                     <form method="POST" action="login_script.php">
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="email" class="form-control my-4 p-4" placeholder="Email address" name="email" required>
+                                <input type="email" class="form-control my-4 p-4" placeholder="Email address" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required = "true">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="password" class="form-control my-4 p-4" placeholder="Password" name="password" required>
+                                <input type="password" class="form-control my-4 p-4" placeholder="Password" name="password" required = "true">
                             </div>
                         </div>
                         <div class="form-row">

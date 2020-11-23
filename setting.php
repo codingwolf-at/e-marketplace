@@ -42,25 +42,25 @@ if (!isset($_SESSION['email'])) {
                 </div>
                 <div class="col-lg-6 px-5 pt-5">
                     <h1 class="display-4 py-3">CHANGE PASSWORD</h1>
-                    <form action="">
+                    <form method="POST" action="setting_script.php">
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="password" class="form-control my-4 p-4" placeholder="Old Password" name="" id="">
+                                <input type="password" class="form-control my-4 p-4" placeholder="Old Password" name="old_password" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="password" class="form-control my-4 p-4" placeholder="New Password" name="" id="">
+                                <input type="password" class="form-control my-4 p-4" placeholder="New Password" name="new_password" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="password" class="form-control my-4 p-4" placeholder="Re-type New Password" name="" id="">
+                                <input type="password" class="form-control my-4 p-4" placeholder="Re-type New Password" name="re_new_password" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <button type="button" class="btn btn-dark btn-block my-3">Change Password</button>
+                                <button type="submit" name="submit" class="btn btn-dark btn-block my-3">Change Password</button>
                             </div>
                         </div>
                         <hr>

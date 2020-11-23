@@ -45,17 +45,17 @@ if (!isset($_SESSION['email'])) {
                     <form method="POST" action="setting_script.php">
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="password" class="form-control my-4 p-4" placeholder="Old Password" name="old_password" required>
+                                <input type="password" class="form-control my-4 p-4" placeholder="Old Password" name="old_password" required = "true">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="password" class="form-control my-4 p-4" placeholder="New Password" name="new_password" required>
+                                <input type="password" class="form-control my-4 p-4" placeholder="New Password" name="new_password" required = "true">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <input type="password" class="form-control my-4 p-4" placeholder="Re-type New Password" name="re_new_password" required>
+                                <input type="password" class="form-control my-4 p-4" placeholder="Re-type New Password" name="re_new_password" required = "true">
                             </div>
                         </div>
                         <div class="form-row">

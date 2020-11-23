@@ -3,7 +3,7 @@ require("includes/common.php");
 
 // Redirects the user to products page if he/she is logged in.
 if (isset($_SESSION['email'])) {
-  header('location: products.php');
+  header('location: product.php');
 }
 
 ?>

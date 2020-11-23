@@ -4,7 +4,8 @@ require("includes/common.php");
 
 $name = mysqli_real_escape_string($con, $_POST['name']);
 $email = mysqli_real_escape_string($con, $_POST['email']);
-$password = $_POST['password'];
+$password = mysqli_real_escape_string($con, $_POST['password']);
+$password = MD5($password);
 $contact = $_POST['contact'];
 $city = mysqli_real_escape_string($con, $_POST['city']);
 $address = mysqli_real_escape_string($con, $_POST['address']);

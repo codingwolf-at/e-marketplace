@@ -17,7 +17,7 @@ $signup_submit = mysqli_query($con, $signup_query) or
 die(mysqli_error($con));
 
 $_SESSION['email'] = $email;
-$_SESSION['id'] = mysqli_insert_id($con);
+$_SESSION['user_id'] = mysqli_insert_id($con);
 
 echo '<script> alert("User signup successful!"); window.location="product.php"; </script>';
 

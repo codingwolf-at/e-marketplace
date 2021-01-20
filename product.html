@@ -1,6 +1,3 @@
-<?php
-require("includes/common.php");
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,10 +21,37 @@ require("includes/common.php");
 <body>
     
     <!-- Header starts -->
-    <?php
-    include 'includes/header.php';
-    include 'includes/check-if-added.php';
-    ?>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container">
+
+            <!-- Website logo -->
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">E-marketplace</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <!-- Website Links -->
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cart.html" class="nav-link">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="setting.html" class="nav-link">Setting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Logout</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
     <!-- /Header -->
 
     <!-- Main body content starts-->
@@ -62,21 +86,7 @@ require("includes/common.php");
                         <h4 class="card-title">Maroon Seersucker</h4>
                         <p class="card-text">• Slim fit<br> • Casual</p>
                         <h4>Price : ₹799</h4>
-                        <!-- <a href="#" class="btn btn-secondary btn-block">Add To Cart</a> -->
-                        <?php if (!isset($_SESSION['email'])) { ?>
-                                <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
-                                <?php
-                            } else {
-                                //We have created a function to check whether this particular product is added to cart or not.
-                                if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
-                                    echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
-                                } else {
-                                    ?>
-                                    <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
-                                    <?php
-                                }
-                            }
-                            ?>
+                        <a href="#" class="btn btn-secondary btn-block">Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -829,9 +839,13 @@ require("includes/common.php");
     <!-- /Main body -->
 
     <!-- Footer starts -->
-    <?php
-    include 'includes/footer.php';
-    ?>
+    <footer>
+        <div class="container home-center-content">
+            <p class="lead">
+                Copyright © E-marketplace | All Rights Reserved | Contact Us: +91 90000 00000
+            </p>
+        </div>
+    </footer>
     <!-- /Footer -->
 </body>
 </html>
